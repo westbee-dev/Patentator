@@ -50,7 +50,6 @@ UC_Apply ..> : include UC_PayNDFL
 UC_GetPatent ..> : include UC_CheckData
 
 UC_RequestFix ..> : extend UC_Review
-UC_RequestFix ..> : extend UC_FixApp
 UC_ReportError ..> : extend UC_CheckData
 ```
 Пояснения к диаграмме
