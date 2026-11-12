@@ -44,12 +44,12 @@ Officer -- UC_Decision
 UC_SMS -- SmsGateway
 UC_PayNDFL -- PaymentSystem
 
-UC_Auth ..> UC_SMS : include
-UC_Apply ..> UC_AttachDocs : include
-UC_GetPatent ..> UC_CheckData : include
+UC_Auth ..> : include UC_SMS
+UC_Apply ..> : include UC_AttachDocs
+UC_GetPatent ..> : include UC_CheckData
 
-UC_RequestFix ..> UC_Review : extend
-UC_ReportError ..> UC_CheckData : extend
+UC_RequestFix ..> : extend UC_Review
+UC_ReportError ..> : extend UC_CheckData
 ```
 Пояснения к диаграмме
 
