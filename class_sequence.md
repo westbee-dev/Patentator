@@ -65,7 +65,7 @@ sequenceDiagram
         Controller-->>Form: submitResponse
         Form-->>Applicant: Подтверждение приема с номером и сроком либо причина отказа
     end
-
+```
 
 ## Выбранный прецедент и границы
 
